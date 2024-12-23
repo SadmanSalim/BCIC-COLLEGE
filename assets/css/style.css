@@ -91,8 +91,27 @@ color: #000;
 font-weight: 500;
 font-size: 18px;
 }
+#navBar ul li a.active{
+    color: var(--primary-color);
+}
 #navBar ul li a:hover{
     color: var(--primary-color);
+}
+#navBar button{
+    padding: 10px;
+    margin: 0 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: var(--primary-color);
+    color: var(--primary-white);
+    border: 1px solid var(--primary-color);
+    transition: 0.3s ease;
+}
+#navBar button:hover{
+    color: var(--primary-color);
+    background: var(--primary-white);
+    border: 1px solid var(--primary-color);
 }
 
 /* Nav Bar Desktop End Here */
