@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+iconify-icon {
+    line-height: 10px !important;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+:root {
+    --primary-color: #172c82;
+    --primary-white: #fff;
+    --primary-black: #000;
+    --font-family: 'poppins', 'sans-serif';
+}
+
+
+/* TOP Bar Start here */
+#topBar{
+    padding: 10px 0;
+    font-size: 14px;
+    color:var(--primary-white);
+    background: var(--primary-color);
+    cursor: default;
+}
+/* Top Bar End here */
+
+/* Nav Bar Desktop Start Here */
+#navBar{
+    padding: 10px 0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#navBar .logoTexts{
+    margin-left: 5px;
+}
+#navBar .logoTexts h3{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 25px;
+color: var(--primary-color);
+}
+#navBar .logoTexts p{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 18px;
+color: var(--primary-black);
+}
+#navBar .logoTexts span{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 13px;
+color: #000;
+}
+#navBar ul{
+    margin-left: 10px;
+}
+#navBar ul li {
+    padding: 0 20px;
+}
+#navBar ul li a{
+    color: var(--primary-black);
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 18px;
+}
+#navBar ul li a:hover{
+    color: var(--primary-color);
+}
+
+/* Nav Bar Desktop End Here */
